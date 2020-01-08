@@ -1064,7 +1064,7 @@ def main():
 
 #
 # cmd:
-# python vxlan_tools_for_ipv6.py -i vxlan.eth1 -d send --type vxlan -iipv 6 --outer-source-mac 9a:1b:62:5a:18:5a --outer-source-ip 192.168.0.219 --outer-destination-mac fa:16:3b:2b:9b:35 --outer-destination-ip 192.168.0.250 --inner-source-mac 9a:1b:62:5a:18:5a --inner-source-ip fe80::4afd:8eff:fe5e:d8c9 --inner-destination-mac 70.202.7.107 --inner-destination-ip fe80::818:daa6:c175:618e -n 1
+# python vxlan_tools_supported_ipv6.py -i vxlan.eth1 -d send --type vxlan -iipv 6 --outer-source-mac 9a:1b:62:5a:18:5a --outer-source-ip 192.168.0.219 --outer-destination-mac fa:16:3b:2b:9b:35 --outer-destination-ip 192.168.0.250 --inner-source-mac 9a:1b:62:5a:18:5a --inner-source-ip fe80::4afd:8eff:fe5e:d8c9 --inner-destination-mac 70.202.7.107 --inner-destination-ip fe80::818:daa6:c175:618e -n 1
 #
 if __name__ == "__main__":
     main()
